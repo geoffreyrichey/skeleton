@@ -1,0 +1,35 @@
+@import "../../bower_components/susy/sass/susy";
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+@import "compass";
+
+@import "reset";
+
+$susy: (
+  columns: 12, 
+  gutter-position: after,
+  container: 1140px
+  //debug: (image: show)
+);
+
+$base-font-size:                    16px;
+$base-line-height:                  24px;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+h1 {
+    font-size: $base-font-size * 2;
+    line-height: $base-line-height * 2;
+}
+
+header, .content {
+    @include container;
+}
+
+
