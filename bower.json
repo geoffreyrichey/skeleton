@@ -10,6 +10,8 @@
     "tests"
   ],
   "devDependencies": {
-    "breakpoint-sass": "~2.6.1"
+    "breakpoint-sass": "~2.6.1",
+    "susy": "~2.2.5",
+    "jquery": "~2.1.4"
   }
 }
